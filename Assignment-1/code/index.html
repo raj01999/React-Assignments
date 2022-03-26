@@ -11,9 +11,28 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">
+
+      <div class="yellow-container">
+        <div class="yellow-child"></div>
+        <div class="yellow-child"></div>
+      </div>
+
+      <div class="red-container">
+        <div class="red-child"></div>
+      </div>
+
+      <div class="blue-container">
+        <div class="blue-child"></div>
+        <div class="blue-child-hidden"></div>
+        <div class="blue-child"></div>
+      </div>
+
+    </div>
     <script type="text/babel">
 //React Code here
+import React from 'react'
+import ReactDOM from 'react-dom'
  ReactDOM.render(<div></div>,document.getElementById('root'));
 
 </script>
