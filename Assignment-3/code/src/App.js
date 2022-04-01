@@ -1,13 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./component/Header";
+import CustomerInfo from "./component/CustomerInfo";
+import OrderInfo from "./component/OrderInfo";
+import ProductList from "./component/ProductList";
 
-
-var arrow="<"
+var arrow = "<";
 function App() {
   return (
     <div className="site-container">
-    {/* Start Your code here */}
+      <Header arrow={arrow} />
+      <CustomerInfo />
+      <OrderInfo />
+      <ProductList />
     </div>
   );
 }
