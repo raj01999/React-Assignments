@@ -1,11 +1,14 @@
 import React from "react";
 import camera from "../Mock-data/camera.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <h1>InstaClone</h1>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <h1>InstaClone</h1>
+        </Link>
         <img
           src={camera}
           alt="camera"

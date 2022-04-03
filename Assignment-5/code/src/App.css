@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-container {
+  text-align: center;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  line-height: 1.5;
+  color: black;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Css for Navbar Component  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  background-color: whitesmoke;
+}
+
+.camera {
+  margin-right: 6rem;
+}
+
+.camera:hover {
+  cursor: pointer;
+}
+
+nav h1 {
+  margin-left: 6rem;
+  cursor: pointer;
+  color: darkcyan;
+}
+
+@media only screen and (max-width: 720px) {
+  .camera {
+    margin-right: 3rem;
+  }
+
+  h1 {
+    margin-left: 3rem;
+  }
+}
+
+/* Css for Card Component  */
+.card {
+  width: 30rem;
+  height: 29rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 720px) {
+  .card {
+    width: 25rem;
+    height: 26rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .card {
+    width: 20rem;
+    height: 23rem;
+  }
+}
+
+.name {
+  margin-left: 10px;
+  text-align: start;
+}
+
+.name h3:hover {
+  cursor: pointer;
+}
+
+.more {
+  font-size: 1.7rem;
+  margin-right: 10px;
+}
+
+.more:hover {
+  cursor: pointer;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6px;
+  margin-right: 6px;
+  align-items: center;
+}
+
+.foot span {
+  font-size: 2rem;
+  margin-right: 5px;
+}
+
+.foot span:hover {
+  cursor: pointer;
+}
+
+.like-content {
+  margin-left: 7px;
+  text-align: start;
+}
+
+.content {
+  padding: 3px;
+  word-break: break-word;
+  font-weight: bold;
+}
+
+/* Css for Post View  */
+.parent-css {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-css {
+  display: flex;
+  width: 80%;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-css {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: darkcyan;
+  width: 50%;
+  height: 75vh;
+  justify-content: center;
+}
+
+.right-css button {
+  border: 3px solid darkcyan;
+  padding: 7px 15px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.right-css p {
+  font-size: 3rem;
+}
+
+.left-css {
+  width: 50%;
+  height: 75vh;
+}
