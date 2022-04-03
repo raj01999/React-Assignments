@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.site-container{
+.site-container {
   text-align: center;
 }
 
@@ -15,18 +15,17 @@ html {
 body {
   line-height: 1.5;
   color: black;
-  margin:0;
+  margin: 0;
 }
 
-.container{
+.container {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-
-  /* Css for Navbar Component  */
-.navbar{
+/* Css for Navbar Component  */
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,33 +34,32 @@ body {
   background-color: whitesmoke;
 }
 
-.camera{
+.camera {
   margin-right: 6rem;
 }
 
-.camera:hover{
+.camera:hover {
   cursor: pointer;
 }
 
-h1{
+h1 {
   margin-left: 6rem;
   cursor: pointer;
-  color:darkcyan;
+  color: darkcyan;
 }
 
 @media only screen and (max-width: 720px) {
-.camera{
-  margin-right: 3rem;
+  .camera {
+    margin-right: 3rem;
+  }
+
+  h1 {
+    margin-left: 3rem;
+  }
 }
 
-h1{
-  margin-left: 3rem;
-}
-}
-
-
-  /* Css for Card Component  */
-.card{
+/* Css for Card Component  */
+.card {
   width: 30rem;
   height: 29rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -69,30 +67,44 @@ h1{
   margin: 5px;
 }
 
-.name{
+@media only screen and (max-width: 720px) {
+  .card {
+    width: 25rem;
+    height: 26rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .card {
+    width: 20rem;
+    height: 23rem;
+  }
+}
+
+.name {
   margin-left: 10px;
   text-align: start;
 }
 
-.name h3:hover{
+.name h3:hover {
   cursor: pointer;
 }
 
-.more{
+.more {
   font-size: 1.7rem;
   margin-right: 10px;
 }
 
-.more:hover{
+.more:hover {
   cursor: pointer;
 }
 
-.head{
+.head {
   display: flex;
   justify-content: space-between;
 }
 
-.foot{
+.foot {
   display: flex;
   justify-content: space-between;
   margin-left: 6px;
@@ -100,21 +112,21 @@ h1{
   align-items: center;
 }
 
-.foot span{
+.foot span {
   font-size: 2rem;
   margin-right: 5px;
 }
 
-.foot span:hover{
-  cursor:pointer;
+.foot span:hover {
+  cursor: pointer;
 }
 
-.like-content{
+.like-content {
   margin-left: 7px;
   text-align: start;
 }
 
-.content{
+.content {
   padding: 3px;
   word-break: break-word;
   font-weight: bold;
